@@ -97,6 +97,13 @@ kWeakObject(self);
 * V0.1.0
   - Fix bugs
   - Add NSDate common APIs in FoundationKit.
+* V0.1.1
+  - Fix bugs
+  - Upload pod to support
+* V0.2.0
+  - Add UIKit categories, as UIAlertView, UIActionSheet.
+  - Fix hyb_trimLeft crash bug when not enough length string.
+  - Fix hyb_leftMarginOfCursor using _cmd will get nil because of getter and setter _cmd is not the same.
 
 #LICENSE
 
